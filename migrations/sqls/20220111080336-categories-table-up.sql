@@ -1,0 +1,1 @@
+CREATE TABLE categories(id SERIAL PRIMARY KEY, category_name VARCHAR(15) UNIQUE);

@@ -1,0 +1,1 @@
+CREATE TABLE products (id SERIAL  PRIMARY  KEY, product_name VARCHAR(50) UNIQUE, product_price INTEGER, category_id INTEGER  REFERENCES categories(id) ON DELETE CASCADE);
